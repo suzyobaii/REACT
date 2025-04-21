@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+/* Overall app container */
+.App {
+  background-color: #ffeef5; /* light pastel pink */
+  color: #ff4d88; /* deeper pink for text */
+  min-height: 100vh;
+  width: 500px;
+  text-align: center;
+  padding: 40px;
+  border-radius: 16px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+/* HelloWorld and headers */
+h1, h2, h3 {
+  color: #ff4d88;
+  margin-bottom: 20px;
+}
+
+/* FilteredList container */
+.filter-list {
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Search bar styling */
+input[type="text"] {
+  padding: 10px 15px;
+  width: 250px;
+  border: 2px solid #ffb6c1;
+  border-radius: 12px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #d63384;
+  margin-bottom: 20px;
+}
+
+/* List items */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffe6ea;
+  border: 1px solid #ffb6c1;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 8px auto;
+  width: 60%;
+  color: #d63384;
+  font-size: 18px;
+}
+
+/* Bootstrap button overrides */
+.btn {
+  background-color: #ffb6c1;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 8px 16px;
+}
+
+.btn:hover {
+  background-color: #ff99aa;
+}
+
+/* Dropdown fix */
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  color: #d63384;
+  
+}
