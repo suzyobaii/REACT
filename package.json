@@ -4,7 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://suzyobaii.github.io/REACT",
+  "homepage": "https://suzyobaii.github.io/REACT/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
